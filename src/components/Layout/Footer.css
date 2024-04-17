@@ -1,0 +1,70 @@
+.footer {
+  padding: 35px 0 40px 0;
+  background-image: url('images/clio-banner.jpg');
+  opacity: 80%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: #B8B8B8;
+}
+.footer img {
+  width: 80%;
+}
+.footer p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #2c2727bb;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+
+
+}
+
+
+.social-icon {
+  display: inline-block;
+  margin-left: 120px;
+}
+.social-icon a {
+  width: 45px;
+  height: 45px;
+  background: rgba(77, 61, 61, 0.315);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.268);
+}
+.social-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+transition: 0.3s ease-in-out;
+}
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+.social-icon a img {
+width: 40%;
+z-index: 1;
+transition: 0.3s ease-in-out;
+}
+.social-icon a:hover img {
+filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+
+.container .align-items-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 135px;
+  list-style: none;
+}

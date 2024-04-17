@@ -1,0 +1,70 @@
+.hero-container {
+    height: 800px;
+    padding: 0;
+    /*margin-top: 120px;
+     background: url(images/hero.jpg) no-repeat;
+    background-size: cover;*/
+  }
+  
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  .hero-slogan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 2;
+    padding-left: 10rem;
+    top: 0;
+    margin-top: 25rem;
+  }
+
+  .hero-slogan strong{
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .hero-slogan span{
+    color: #fff;
+  }
+
+  .hero-slogan h2{
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  
+  .hero-image-container {
+    height: 100%;
+    margin-left: auto;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hero-image {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-width: 700px;
+    z-index: -1;
+  }
+  
+  .hero-container a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 50rem;
+    transition: 0.4s ease opacity;
+  }
+  
+  .hero-container a:hover {
+    opacity: 0.8;
+  }
+  

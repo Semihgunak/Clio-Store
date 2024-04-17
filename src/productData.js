@@ -1,0 +1,68 @@
+const products = [
+    {
+      id: 1,
+      name: "Ürün 1",
+      description: "Ürün 1'in açıklaması",
+      img: "/images/1.webp",
+      price: 100.0,
+      amount: 1,
+    },
+    {
+      id: 2,
+      name: "Ürün 2",
+      description: "Ürün 2'nin açıklaması",
+      img: "/images/2.webp",
+      price: 150.0,
+      amount: 1,
+    },
+    {
+      id: 3,
+      name: "Ürün 3",
+      description: "Ürün 3'ün açıklaması",
+      img: "/images/3.webp",
+      price: 200.0,
+      amount: 1,
+    },
+    {
+      id: 4,
+      name: "Ürün 4",
+      description: "Ürün 4'ün açıklaması",
+      img: "/images/4.webp",
+      price: 250.0,
+      amount: 1,
+    },
+    {
+      id: 5,
+      name: "Ürün 5",
+      description: "Ürün 5'in açıklaması",
+      img: "/images/5.webp",
+      price: 100.0,
+      amount: 1,
+    },
+    {
+      id: 6,
+      name: "Ürün 6",
+      description: "Ürün 6'nin açıklaması",
+      img: "/images/6.webp",
+      price: 150.0,
+      amount: 1,
+    },
+    {
+      id: 7,
+      name: "Ürün 7",
+      description: "Ürün 7'ün açıklaması",
+      img: "/images/7.webp",
+      price: 200.0,
+      amount: 1,
+    },
+    {
+      id: 8,
+      name: "Ürün 8",
+      description: "Ürün 8'ün açıklaması",
+      img: "/images/8.webp",
+      price: 250.0,
+      amount: 1,
+    },
+  ];
+  
+  export default products
